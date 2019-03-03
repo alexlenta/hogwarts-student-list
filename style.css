@@ -1,0 +1,31 @@
+.student-item {
+  min-width: 200px;
+  min-height: 200px;
+  margin: 8px;
+  border: 1px solid #eee;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.list-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  border-radius: 100px;
+  outline: none;
+}
+
+.house-img-box {
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60px;
+}

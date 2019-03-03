@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hogwarts Students</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Hogwarts Students</h1>
+
+    <div>
+      <button class="filter-btn">All <span class="house-count"></span></button>
+      <button class="filter-btn">
+        Gryffindor <span class="house-count"></span>
+      </button>
+      <button class="filter-btn">
+        Hufflepuff <span class="house-count"></span>
+      </button>
+      <button class="filter-btn">
+        Ravenclaw <span class="house-count"></span>
+      </button>
+      <button class="filter-btn">
+        Slytherin <span class="house-count"></span>
+      </button>
+    </div>
+    <br />
+
+    <div>
+      Sort by:
+      <button class="sort-btn">First Name</button>
+      <button class="sort-btn">Last Name</button>
+    </div>
+    <br />
+
+    <div>Expelled: <span id="expelled-nr">0</span></div>
+    <br />
+
+    <div class="list-container">
+      loading...
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
